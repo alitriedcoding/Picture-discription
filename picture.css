@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+  padding: 2px;
+  background-color: gray;
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 3px 3px 10px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.list img {
+  max-width: 300px;
+  height: aout;
+  padding: 20px;
+  border-radius: 5px;
+}
+.list h2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.list p {
+  font-size: 20px;
+  padding: 20px;
+  margin-left: 30px;
+}
+.list a {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  max-width: 200px;
+  padding: 20px;
+  margin-left: 150px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+@media screen and (max-width:750px) {
+
+    .list{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .list img{
+        width: 100%;
+        height: auto;
+    }
+    .list h2{
+        font-size: 12px;
+        padding: 10px;
+
+    }
+    .list p{
+        font-size: 10px;
+        padding: 10px;
+        margin: 0;
+    }
+ .list a{
+    margin: 0;
+    font-size: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+ }
+    
+}
